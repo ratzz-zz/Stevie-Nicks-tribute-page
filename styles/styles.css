@@ -6,44 +6,40 @@ body {
     margin: 0;
     background: #242021;
     color: #ccbeb3;
-    font-family: Poppins, Helvetica;
+    font-family: Poppins, Helvetica, sans-serif;
 }
 
-#title {
+#title, h1 {
     width: 100%;
     text-align: center;
-    padding: 25px 0 0 0;
-    /*border-bottom: 4px dotted #ccbeb3;*/
+    padding-top: 25px;
+    color: #ccbeb3;
+    font-family: "Playfair Display", Helvetica, serif;
 }
 
 h1 {
-    color: #ccbeb3;
     font-size: 40px;
     letter-spacing: 10px;
-    font-family: "Playfair Display", Helvetica;
 }
 
 p {
     text-align: center;
-    padding-top: 0;
     padding-bottom: 50px;
     letter-spacing: 2px;
-    font-family: "Playfair Display", Helvetica;
+    font-family: "Playfair Display", Helvetica, serif;
     color: #9c9e4a;
 }
 
 #img-div {
     display: block;
     background-color: #ccbeb3;
-    max-width: 100%;
     width: 100%;
-    margin: 0;
     padding: 20px;
+    margin: 0;
 }
 
 #image {
     width: 100%;
-    max-width: 100%;
     height: auto;
     display: block;
     padding: 20px;
@@ -65,17 +61,15 @@ p {
 }
 
 h3 {
-    display: block;
     text-align: center;
     font-size: 25px;
     color: #ccbeb3;
     margin-top: 50px;
-    padding: 0 auto;
 }
 
 li {
     margin: 30px;
-    padding: 0 30px 0 10px;
+    padding-left: 10px;
 }
 
 strong {
@@ -83,8 +77,8 @@ strong {
     font-size: 20px;
 }
 
-#more-info{
-    font-family: "Playfair Display", Helvetica;
+#more-info {
+    font-family: "Playfair Display", Helvetica, serif;
     font-size: 15px;
     letter-spacing: 3px;
     padding: 70px 20px;
