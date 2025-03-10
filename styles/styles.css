@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #242021;
+    color: #ccbeb3;
+    font-family: Poppins, Helvetica;
+}
+
+#title {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0 0 0;
+    /*border-bottom: 4px dotted #ccbeb3;*/
+}
+
+h1 {
+    color: #ccbeb3;
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-family: "Playfair Display", Helvetica;
+}
+
+p {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+    font-family: "Playfair Display", Helvetica;
+    color: #9c9e4a;
+}
+
+#img-div {
+    display: block;
+    background-color: #ccbeb3;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+}
+
+#image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding: 20px;
+    object-fit: cover;
+    object-position: top;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin: 10px;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 5px;
+    color: #242021;
+}
+
+#tribute-info {
+    display: block;
+}
+
+h3 {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    color: #ccbeb3;
+    margin-top: 50px;
+    padding: 0 auto;
+}
+
+li {
+    margin: 30px;
+    padding: 0 30px 0 10px;
+}
+
+strong {
+    color: #9c9e4a;
+    font-size: 20px;
+}
+
+#more-info{
+    font-family: "Playfair Display", Helvetica;
+    font-size: 15px;
+    letter-spacing: 3px;
+    padding: 70px 20px;
+}
+
+#tribute-link {
+    color: #9c9e4a;
+}
